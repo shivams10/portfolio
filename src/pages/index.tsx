@@ -9,10 +9,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/user.png" />
       </Head>
-      <h1>bybyebey</h1>
-      <h1 className="text-3xl font-bold text-indigo-700 underline">
-        Hello world!
-      </h1>
     </>
   );
 }
