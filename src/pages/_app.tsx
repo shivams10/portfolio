@@ -1,6 +1,8 @@
-import 'styles/globals.css';
 import type { AppProps } from 'next/app';
+
+import 'styles/globals.css';
 import { Sidebar } from 'components/sidebar';
+import { Navbar } from 'components/navbar';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -8,8 +10,10 @@ export default function App({ Component, pageProps }: AppProps) {
       <div className="h-full col-span-12 p-4 text-base text-center bg-white lg:col-span-3 rounded-2xl">
         <Sidebar />
       </div>
-      <div className="col-span-12 bg-white lg:col-span-9 rounded-2xl"></div>
-      <Component {...pageProps} />
+      <div className="flex flex-col col-span-12 bg-white lg:col-span-9 rounded-2xl">
+        <Navbar />
+        <Component {...pageProps} />
+      </div>
     </div>
   );
 }
