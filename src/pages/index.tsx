@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import {
   SiTypescript,
   SiJavascript,
@@ -18,12 +17,6 @@ import { ServiceCard } from 'components/serviceCard';
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Shivam Shukla</title>
-        <meta name="description" content="Shivam Shukla's Portfolio Website" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/user.png" />
-      </Head>
       <div className="flex flex-col flex-grow px-6 pt-1">
         <h5 className="my-3 font-medium">
           I'm currently pursuing <b>B. Tech</b> degree from
@@ -44,17 +37,17 @@ export default function Home() {
             ))}
           </div>
         </div>
-        <div className="flex items-center justify-center py-12 space-x-1 ">
-          <SiTypescript className="w-10 h-6 text-blue-600 rounded-sm" />
-          <SiJavascript className="w-12 h-6 text-yellow-400 rounded-sm" />
-          <SiReact className="w-10 h-6 text-blue-400 rounded-sm" />
-          <SiNextdotjs className="w-10 h-6 text-black rounded-sm" />
-          <SiTailwindcss className="w-10 h-6 text-blue-400 rounded-sm" />
-          <SiNodedotjs className="w-10 h-6 text-green-600 rounded-sm" />
-          <SiMysql className="w-10 h-6 text-yellow-600 rounded-sm" />
-          <SiStrapi className="w-10 h-6 text-indigo-600 rounded-sm" />
-          <SiChakraui className="w-10 h-6 rounded-sm" color="rgb(80,188,188)" />
-          <SiAntdesign className="w-10 h-6 text-blue-600 rounded-sm" />
+        <div className="flex flex-wrap items-center justify-center gap-2 py-12 space-x-1">
+          <SiTypescript className="w-10 h-6 text-blue-600" />
+          <SiJavascript className="w-10 h-6 text-yellow-400" />
+          <SiReact className="w-10 h-6 text-blue-400" />
+          <SiNextdotjs className="w-10 h-6 text-black" />
+          <SiTailwindcss className="w-10 h-6 text-blue-400" />
+          <SiNodedotjs className="w-10 h-6 text-green-600" />
+          <SiMysql className="w-10 h-6 text-yellow-600" />
+          <SiStrapi className="w-10 h-6 text-indigo-600" />
+          <SiChakraui className="w-10 h-6" color="rgb(80,188,188)" />
+          <SiAntdesign className="w-10 h-6 text-blue-600" />
         </div>
       </div>
     </>

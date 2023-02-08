@@ -5,3 +5,9 @@ export interface ServiceInterface {
   about: string;
   icon: IconType;
 }
+
+export interface SkillInterface {
+  name: string;
+  level: string;
+  Icon: IconType;
+}
