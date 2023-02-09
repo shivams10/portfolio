@@ -14,11 +14,11 @@ export function Navbar() {
   }, [pathname]);
 
   return (
-    <div className="flex justify-between px-5 py-3 my-3">
-      <span className="text-xl font-bold text-purple-500 border-b-4 border-purple-500 md:text-2xl">
+    <div className="flex justify-between px-5 py-3 my-3 ">
+      <span className="text-xl font-bold text-purple-500 border-b-4 border-purple-500 md:text-2xl dark:text-white">
         {activeItem}
       </span>
-      <div className="flex space-x-5 text-lg text-indigo">
+      <div className="flex space-x-5 text-lg text-indigo dark:text-white">
         <NavItems
           name="About"
           route="/"

@@ -25,13 +25,13 @@ export default function Home() {
           <b> Web Development</b>. I'm currently improving my frontend skills
           and logic building.
         </h5>
-        <div className="flex-grow p-4 mt-5 -mx-6 bg-gray-200 rounded-lg">
+        <div className="flex-grow p-4 mt-5 -mx-6 bg-gray-200 rounded-lg dark:bg-dark-700">
           <h6 className="my-3 text-xl font-bold tracking-wide">
             What I Offer!
           </h6>
           <div className="grid gap-6 lg:grid-cols-1">
             {services.map(service => (
-              <div className="bg-gray-100 rounded-lg lg:col-span-1">
+              <div className="bg-gray-100 rounded-lg dark:bg-dark-100 lg:col-span-1 ">
                 <ServiceCard service={service} />
               </div>
             ))}
