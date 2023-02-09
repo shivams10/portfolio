@@ -11,7 +11,11 @@ import {
   SiChakraui,
   SiAntdesign,
   SiCplusplus,
-  SiJest
+  SiJest,
+  SiExpress,
+  SiGit,
+  SiPostman,
+  SiMysql
 } from 'react-icons/si';
 
 import { ServiceInterface, SkillInterface } from 'components/types';
@@ -60,13 +64,18 @@ export const languages: SkillInterface[] = [
   },
   {
     name: 'Next JS',
-    level: '60%',
+    level: '70%',
     Icon: SiNextdotjs
   },
   {
     name: 'TypeScript',
     level: '50%',
     Icon: SiTypescript
+  },
+  {
+    name: 'Express Js',
+    level: '50%',
+    Icon: SiExpress
   }
 ];
 
@@ -87,8 +96,23 @@ export const libraries: SkillInterface[] = [
     Icon: SiChakraui
   },
   {
-    name: 'Jest Testing Library',
+    name: 'Git / Github',
+    level: '80%',
+    Icon: SiGit
+  },
+  {
+    name: 'Postman',
+    level: '70%',
+    Icon: SiPostman
+  },
+  {
+    name: 'Jest Testing',
     level: '50%',
     Icon: SiJest
+  },
+  {
+    name: 'MySQL',
+    level: '60%',
+    Icon: SiMysql
   }
 ];

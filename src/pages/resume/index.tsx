@@ -1,3 +1,6 @@
+import { languages, libraries } from 'asserts/services';
+import { Bar } from 'components/bar';
+
 function Resume() {
   return (
     <div className="px-6 py-4">
@@ -50,6 +53,20 @@ function Resume() {
       </div>
       <div className="grid gap-6 md:grid-cols-2">
         <div>
+          <h5 className="my-2 text-xl font-bold">Languages & Frameworks</h5>
+          <div className="my-2">
+            {languages.map(language => (
+              <Bar data={language} key={language.name} />
+            ))}
+          </div>
+        </div>
+        <div>
+          <h5 className="my-2 text-xl font-bold">Libraries & Tools</h5>
+          <div className="my-2">
+            {libraries.map(library => (
+              <Bar data={library} key={library.name} />
+            ))}
+          </div>
         </div>
       </div>
     </div>
