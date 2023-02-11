@@ -18,7 +18,11 @@ import {
   SiMysql
 } from 'react-icons/si';
 
-import { ServiceInterface, SkillInterface } from 'components/types';
+import {
+  ProjectInterface,
+  ServiceInterface,
+  SkillInterface
+} from 'components/types';
 
 export const services: ServiceInterface[] = [
   {
@@ -114,5 +118,78 @@ export const libraries: SkillInterface[] = [
     name: 'MySQL',
     level: '60%',
     Icon: SiMysql
+  }
+];
+
+export const projects: ProjectInterface[] = [
+  {
+    name: 'Foodo',
+    description:
+      'Foodo helps hungry by letting them order food online or by finding out the recipe of a particular food. The user is able to post review on a particular food. The conyacy page is made using email js which helps in managing real time mail. The pages are made with protected route and only authorized user can see the pages',
+    image_path: '',
+    deployed_url: '',
+    category: ['reactjs'],
+    key_techs: ['React Js', 'Jest Testig', 'Javascript'],
+    github_url: ''
+  },
+  {
+    name: 'Foodo',
+    description:
+      'Foodo helps hungry by letting them order food online or by finding out the recipe of a particular food. The user is able to post review on a particular food. The conyacy page is made using email js which helps in managing real time mail. The pages are made with protected route and only authorized user can see the pages',
+    image_path: '',
+    deployed_url: '',
+    category: ['reactjs'],
+    key_techs: ['React Js', 'Jest Testig', 'Javascript'],
+    github_url: ''
+  },
+  {
+    name: 'Foodo',
+    description:
+      'Foodo helps hungry by letting them order food online or by finding out the recipe of a particular food. The user is able to post review on a particular food. The conyacy page is made using email js which helps in managing real time mail. The pages are made with protected route and only authorized user can see the pages',
+    image_path: '',
+    deployed_url: '',
+    category: ['reactjs'],
+    key_techs: ['React Js', 'Jest Testig', 'Javascript'],
+    github_url: ''
+  },
+  {
+    name: 'Foodo',
+    description:
+      'Foodo helps hungry by letting them order food online or by finding out the recipe of a particular food. The user is able to post review on a particular food. The conyacy page is made using email js which helps in managing real time mail. The pages are made with protected route and only authorized user can see the pages',
+    image_path: '',
+    deployed_url: '',
+    category: ['reactjs'],
+    key_techs: ['React Js', 'Jest Testig', 'Javascript'],
+    github_url: ''
+  },
+  {
+    name: 'Foodo',
+    description:
+      'Foodo helps hungry by letting them order food online or by finding out the recipe of a particular food. The user is able to post review on a particular food. The conyacy page is made using email js which helps in managing real time mail. The pages are made with protected route and only authorized user can see the pages',
+    image_path: '',
+    deployed_url: '',
+    category: ['reactjs'],
+    key_techs: ['React Js', 'Jest Testig', 'Javascript'],
+    github_url: ''
+  },
+  {
+    name: 'Foodo',
+    description:
+      'Foodo helps hungry by letting them order food online or by finding out the recipe of a particular food. The user is able to post review on a particular food. The conyacy page is made using email js which helps in managing real time mail. The pages are made with protected route and only authorized user can see the pages',
+    image_path: '',
+    deployed_url: '',
+    category: ['reactjs'],
+    key_techs: ['React Js', 'Jest Testig', 'Javascript'],
+    github_url: ''
+  },
+  {
+    name: 'Foodo',
+    description:
+      'Foodo helps hungry by letting them order food online or by finding out the recipe of a particular food. The user is able to post review on a particular food. The conyacy page is made using email js which helps in managing real time mail. The pages are made with protected route and only authorized user can see the pages',
+    image_path: '',
+    deployed_url: '',
+    category: ['reactjs'],
+    key_techs: ['React Js', 'Jest Testig', 'Javascript'],
+    github_url: ''
   }
 ];
