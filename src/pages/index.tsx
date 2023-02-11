@@ -16,6 +16,7 @@ import { ServiceCard } from 'components/serviceCard';
 
 export default function Home() {
   return (
+    /* eslint-disable */
     <>
       <div className="flex flex-col flex-grow px-6 pt-1">
         <h5 className="my-3 font-medium">
@@ -31,7 +32,10 @@ export default function Home() {
           </h6>
           <div className="grid gap-6 lg:grid-cols-1">
             {services.map(service => (
-              <div className="bg-gray-100 rounded-lg dark:bg-dark-100 lg:col-span-1 ">
+              <div
+                className="bg-gray-100 rounded-lg dark:bg-dark-100 lg:col-span-1"
+                key={service.title}
+              >
                 <ServiceCard service={service} />
               </div>
             ))}
@@ -52,4 +56,5 @@ export default function Home() {
       </div>
     </>
   );
+  /* eslint-enable */
 }
