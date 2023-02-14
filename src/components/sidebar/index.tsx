@@ -18,7 +18,7 @@ export const Sidebar = () => {
       <Image
         src={UserAvatar}
         alt="user avatar"
-        className="w-32 h-48 m-auto rounded-full hover:scale-110"
+        className="w-32 h-32 m-auto rounded-full hover:scale-110"
       />
       <h3 className="my-4 text-3xl font-medium text-purple-700 dark:text-purple-500 font-dmsans">
         Shivam Shukla

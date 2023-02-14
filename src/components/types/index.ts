@@ -15,7 +15,7 @@ export interface SkillInterface {
 export interface ProjectInterface {
   name: string;
   description: string;
-  image_path: string;
+  image_path: any;
   deployed_url: string;
   github_url: string;
   category: Category[];
