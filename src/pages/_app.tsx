@@ -1,10 +1,10 @@
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
+import { ThemeProvider } from 'next-themes';
 
 import 'styles/globals.css';
 import { Sidebar } from 'components/sidebar';
 import { Navbar } from 'components/navbar';
-import { ThemeProvider } from 'next-themes';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <div className="h-full col-span-12 p-4 text-base text-center bg-white dark:bg-dark-500 lg:col-span-3 rounded-2xl shadow-custom-light dark:shadow-custom-dark">
           <Sidebar />
         </div>
-        <div className="flex flex-col col-span-12 overflow-hidden bg-white dark:bg-dark-500 lg:col-span-9 rounded-2xl dark:shadow-custom-dark shadow-custom-light">
+        <div className="flex flex-col col-span-12 overflow-hidden bg-white dark:bg-dark-500 lg:col-span-9 rounded-2xl dark:shadow-custom-dark shadow-custom-light ">
           <Navbar />
           <Component {...pageProps} />
         </div>
