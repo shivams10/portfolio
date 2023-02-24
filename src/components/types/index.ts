@@ -23,6 +23,7 @@ export interface ProjectInterface {
 }
 
 export type Category =
+  | `all`
   | 'reactjs'
   | 'nextjs'
   | 'nodejs'
